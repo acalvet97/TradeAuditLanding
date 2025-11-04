@@ -16,5 +16,14 @@
             </div>
         </div>
     </footer>
+    <!-- Script para el menú hamburguesa -->
+    <script defer>
+        document.querySelector('.menu-toggle').addEventListener('click', e => {
+            const nav = document.querySelector('.header-nav');
+            const expanded = e.currentTarget.getAttribute('aria-expanded') === 'true';
+            e.currentTarget.setAttribute('aria-expanded', !expanded);
+            nav.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>

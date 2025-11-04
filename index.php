@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', '/TradeAuditLanding/');
+define('BASE_URL', '/TradeAuditLanding-main/');
 include 'includes/headerLanding.php';
 ?>
     <main>
@@ -9,7 +9,7 @@ include 'includes/headerLanding.php';
                 <h1>Optimiza tus <span>trades</span> con TradeAudit</h1>
                 <p>Sube tus datos de Bitget y obtén análisis claros y accionables al instante.</p>
                 <div class="hero-cta">
-                    <a href="#" class="button button-primary button-md">Comenzar gratis</a>
+                    <a href="https://tradeaudit.com/registro.php" class="button button-primary button-md">Comenzar gratis</a>
                     <span>*Crea tu cuenta con tu UID de referidos.</span>
                 </div>
             </div>
@@ -21,7 +21,7 @@ include 'includes/headerLanding.php';
             <div class="wrapper">
                 <div class="intro">
                     <h2>La auditoría automatizada que tu operativa necesita</h2>
-                    <p class="intro-text">Conecta tu cuenta de Bitget y obtén un análisis completo de tu operativa a través de un dashboard intuitivo y visual. TradeAudit interpreta los datos directamente desde la API de Bitget para ofrecerte una auditoría detallada de cada trade.</br><span>Acceso gratuito exclusivo mediante UID referido de TradeAudit.</span></p>
+                    <p class="intro-text">Conecta tu cuenta de Bitget y obtén un análisis completo de tu operativa a través de un dashboard intuitivo y visual. TradeAudit interpreta los datos directamente desde la API de Bitget para ofrecerte una auditoría detallada de cada trade.</br><span>Acceso gratuito exclusivo mediante UID referido de Cryptobruj.</span></p>
                 </div>
             </div>
         </section>
@@ -65,19 +65,23 @@ include 'includes/headerLanding.php';
             <div class="faqs-accordion">
                 <details aria-label="Pregunta frecuente sobre análisis de TradeAudit">
                     <summary>¿Qué tipo de análisis proporciona TradeAudit?</summary>
-                    <div class="faqs-textContainer"><p>Text</p></div>
+                    <div class="faqs-textContainer"><p>TradeAudit realiza una auditoría completa de tu operativa en Bitget.
+                        Obtendrás métricas clave como porcentaje de aciertos, relación riesgo/beneficio, drawdown, rentabilidad acumulada y estadísticas por par, día o estrategia. Además, el panel te muestra visualizaciones interactivas que te ayudan a entender cómo y dónde mejorar tu rendimiento.
+                    </p></div>
                 </details>
                 <details aria-label="Pregunta frecuente sobre cómo vincular Bitget con TradeAudit">
                     <summary>¿Cómo se realiza la integración con mi cuenta de Bitget?</summary>
-                    <div class="faqs-textContainer"><p>Text</p></div>
+                    <div class="faqs-textContainer"><p>Solo necesitas generar tus claves API desde tu cuenta de Bitget (con permisos de solo lectura) y conectarlas en tu panel de usuario de TradeAudit. En segundos, el sistema sincroniza tus operaciones y actualiza tus estadísticas de forma automática y en tiempo real.    
+                    </p></div>
                 </details>
                 <details aria-label="Pregunta frecuente sobre la compatibilidad de TradeAudit con exhanges">
                     <summary>¿Está prevista la compatibilidad con otros exchanges?</summary>
-                    <div class="faqs-textContainer"><p>Text</p></div>
+                    <div class="faqs-textContainer"><p>Sí. Actualmente TradeAudit está optimizando su integración exclusiva con Bitget, pero ya se está trabajando en la expansión hacia otros exchanges líderes como Bitunix o BingX. Nuestro objetivo es ofrecerte la misma calidad de análisis sin importar dónde operes.</p></div>
                 </details>
                 <details aria-label="Pregunta frecuente sobre la protección de datos en TradeAudit">
                     <summary>¿Cómo se garantiza la seguridad de mis datos?</summary>
-                    <div class="faqs-textContainer"><p>Text</p></div>
+                    <div class="faqs-textContainer"><p>La privacidad y protección de tus datos es nuestra máxima prioridad.
+TradeAudit no almacena claves con permisos de retiro, utiliza encriptación de nivel bancario para proteger la información y sigue estrictos protocolos de seguridad en servidores dedicados. Tus datos permanecen siempre bajo tu control y solo se usan para generar tus reportes.</p></div>
                 </details>
             </div>
         </section>
@@ -86,7 +90,7 @@ include 'includes/headerLanding.php';
             <h2>La única herramienta <span>gratuita</span></br>para optimizar tus trades en tiempo real</h2>
             <p>Accede ahora con tu cuenta de Bitget y empieza a mejorar tu operativa desde el primer trade.</br><span>Sin costes. Sin complicaciones. Solo resultados.</span></p>
             <div class="bottom-cta-button">
-                <a href="#" class="button button-primary button-lg">Empieza gratis con tu UID de referido</a>
+                <a href="https://tradeaudit.com/registro.php" class="button button-primary button-lg">Empieza gratis con tu UID de referido</a>
                 <span>*No se necesita tarjeta de crédito.</span>
             </div>
         </section>
