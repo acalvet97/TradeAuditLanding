@@ -7,7 +7,7 @@
   
   <meta property="og:title" content="TradeAudit - Optimiza tus trades">
   <meta property="og:description" content="Conecta tu cuenta de Bitget y obtén auditorías claras y visuales al instante. 100% gratis para referidos de Cryptobruj.">
-  <meta property="og:image" content="<?= BASE_URL ?>assets/og-image.png">
+  <meta property="og:image" content="<?= BASE_URL ?>assets/favicon.png">
   <meta property="og:url" content="https://tradeaudit.com">
   <meta name="twitter:card" content="summary_large_image">
   
@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="<?= BASE_URL ?>assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="<?= BASE_URL ?>assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <!-- Header Section -->
